@@ -1,13 +1,15 @@
 import './App.css';
 import React from 'react';
-import navbar from './components/inc/navbar';
+import Navbar from './components/inc/Navbar';
 import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Contact from './components/pages/Contact';
 
+
 function App() {
   return (
     <div className="container">
+     <Navbar />
      <Home />
      <Contact />
      <About />
