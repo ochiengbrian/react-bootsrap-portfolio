@@ -16,17 +16,8 @@ function navbar() {
       >
         <ReactBootStrap.Nav.Link href="#action1">Home</ReactBootStrap.Nav.Link>
         <ReactBootStrap.Nav.Link href="#action2">Link</ReactBootStrap.Nav.Link>
-        <ReactBootStrap.NavDropdown title="Link" id="navbarScrollingDropdown">
-          <ReactBootStrap.NavDropdown.Item href="#action3">Action</ReactBootStrap.NavDropdown.Item>
-          <ReactBootStrap.NavDropdown.Item href="#action4">Another action</ReactBootStrap.NavDropdown.Item>
-          <ReactBootStrap.NavDropdown.Divider />
-          <ReactBootStrap.NavDropdown.Item href="#action5">
-            Something else here
-          </ReactBootStrap.NavDropdown.Item>
-        </ReactBootStrap.NavDropdown>
-        <ReactBootStrap.Nav.Link href="#" disabled>
-          Link
-        </ReactBootStrap.Nav.Link>
+
+        <ReactBootStrap.Nav.Link href="#">Link</ReactBootStrap.Nav.Link>
       </ReactBootStrap.Nav>
       <ReactBootStrap.Form className="d-flex">
         <ReactBootStrap.FormControl
